@@ -107,4 +107,5 @@ indTidyData<-indTidyData[order(indTidyData$Subject_ID, indTidyData$Act_ID),]
 
 #### 9. Save data
 write.table(indTidyData, "independentTidyData.txt", row.name=FALSE)
+
 File created aboe is uploaded at coursera and also located at https://github.com/mahenlal/GettingAndCleaningData/blob/master/independentTidyData.txt
